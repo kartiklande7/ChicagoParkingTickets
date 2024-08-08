@@ -47,7 +47,6 @@ jobs:
         python-version: "3.10"
     - name: Run AML pipeline
       run: |
-        cd Pipeline/
         echo "Installing dependencies"
         python -m pip install -r requirements.txt
         echo "Creating config file"
