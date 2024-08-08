@@ -17,7 +17,7 @@ parser.add_argument("--output_data_test", type=str, help="Name of folder we will
 
 args=parser.parse_args()
 
-print("Performing Data Cleaning & Feature Engineering...")
+print("Performing Data Cleaning & Feature Engineering....")
 
 lines=[
     f"Input data path: {args.input_data}",
